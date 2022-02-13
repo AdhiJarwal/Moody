@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity
         database = FirebaseDatabase.getInstance();
 
         //---------- checkbox to stay logged in --------------------
-        SharedPreferences preferences = getSharedPreferences("checkbox",MODE_PRIVATE);
+        /*SharedPreferences preferences = getSharedPreferences("checkbox",MODE_PRIVATE);
         String checkbox =  preferences.getString("remember","");
 
         if(checkbox.equals("true"))
@@ -45,8 +45,7 @@ public class MainActivity extends AppCompatActivity
         else if (checkbox.equals("false"))
         {
             Toast.makeText(this, "Please Sign In.", Toast.LENGTH_SHORT).show();
-        }
-
+        }*/
         // ----------------------------------------------------------------------
 
         //to hide the actionbar
@@ -62,7 +61,7 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        binding.remember.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+       /* binding.remember.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(compoundButton.isChecked())
@@ -83,7 +82,7 @@ public class MainActivity extends AppCompatActivity
 
                 }
             }
-        });
+        });*/
 
         binding.loginButton.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -91,10 +91,10 @@ public class SelectMoodActivity extends AppCompatActivity {
 
             case (R.id.logout):
 
-                SharedPreferences preferences = getSharedPreferences("checkbox",MODE_PRIVATE);
+               /* SharedPreferences preferences = getSharedPreferences("checkbox",MODE_PRIVATE);
                 SharedPreferences.Editor editor = preferences.edit();
                 editor.putString("remember","false");
-                editor.apply();
+                editor.apply();*/
                 Intent intent2 = new Intent(SelectMoodActivity.this,MainActivity.class);
                 startActivity(intent2);
                 break;
