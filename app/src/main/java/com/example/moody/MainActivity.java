@@ -32,22 +32,6 @@ public class MainActivity extends AppCompatActivity
 
         database = FirebaseDatabase.getInstance();
 
-        //---------- checkbox to stay logged in --------------------
-        /*SharedPreferences preferences = getSharedPreferences("checkbox",MODE_PRIVATE);
-        String checkbox =  preferences.getString("remember","");
-
-        if(checkbox.equals("true"))
-        {
-            Intent intent = new Intent(MainActivity.this,IntroductionPageActivity.class);
-            startActivity(intent);
-        }
-
-        else if (checkbox.equals("false"))
-        {
-            Toast.makeText(this, "Please Sign In.", Toast.LENGTH_SHORT).show();
-        }*/
-        // ----------------------------------------------------------------------
-
         //to hide the actionbar
         getSupportActionBar().hide();
 
@@ -61,36 +45,12 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-       /* binding.remember.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
-                if(compoundButton.isChecked())
-                {
-                    SharedPreferences preferences = getSharedPreferences("checkbox",MODE_PRIVATE);
-                    SharedPreferences.Editor editor = preferences.edit();
-                    editor.putString("remember","true");
-                    editor.apply();
-                    Toast.makeText(MainActivity.this, "Checked", Toast.LENGTH_SHORT).show();
-                }
-                else if(!compoundButton.isChecked())
-                {
-                    SharedPreferences preferences = getSharedPreferences("checkbox",MODE_PRIVATE);
-                    SharedPreferences.Editor editor = preferences.edit();
-                    editor.putString("remember","false");
-                    editor.apply();
-                    Toast.makeText(MainActivity.this, "Unchecked", Toast.LENGTH_SHORT).show();
-
-                }
-            }
-        });*/
-
         binding.loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 usrname = binding.usernameLogIn.getText().toString();
                 pss = binding.passwordLogIn.getText().toString();
-
 
                 database.getReference()
                         .child("Users")
@@ -117,23 +77,17 @@ public class MainActivity extends AppCompatActivity
                                             startActivity(i);
                                             MainActivity.this.finish();
                                         }
-
                                     }
-
                                     catch (Exception e)
                                     {
                                         binding.usernameLogIn.setError("Field can not be empty");
-
                                     }
-
-
                                 }
                             }
 
                             @Override
                             public void onCancelled(@NonNull DatabaseError error)
                             {
-
                             }
                         });
             }

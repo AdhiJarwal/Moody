@@ -99,10 +99,18 @@
             android:textStyle="bold" />
 
 
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click here to continue"
+            android:textColor="#FFFFFF" />
+
         <ImageView
             android:id="@+id/heartIntroPageBtn"
             android:layout_width="300dp"
             android:layout_height="50dp"
+            android:layout_marginTop="10dp"
             android:layout_marginBottom="250dp"
             android:src="@drawable/i2" />
 

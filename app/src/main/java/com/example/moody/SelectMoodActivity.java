@@ -31,7 +31,6 @@ public class SelectMoodActivity extends AppCompatActivity {
         binding = ActivitySelectMoodBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-
         binding.happyMoodBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -90,15 +89,9 @@ public class SelectMoodActivity extends AppCompatActivity {
                 break;
 
             case (R.id.logout):
-
-               /* SharedPreferences preferences = getSharedPreferences("checkbox",MODE_PRIVATE);
-                SharedPreferences.Editor editor = preferences.edit();
-                editor.putString("remember","false");
-                editor.apply();*/
                 Intent intent2 = new Intent(SelectMoodActivity.this,MainActivity.class);
                 startActivity(intent2);
                 break;
-
         }
         return true;
     }
