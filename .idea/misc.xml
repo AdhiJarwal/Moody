@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/SAKSHI/Downloads/Moody2112022/Moody/app/src/main/res/layout/activity_about.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/SAKSHI/Downloads/Moody2112022/Moody/app/src/main/res/layout/activity_about2.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/SAKSHI/Downloads/Moody2112022/Moody/app/src/main/res/layout/activity_description.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/SAKSHI/Downloads/Moody2112022/Moody/app/src/main/res/layout/activity_select_mood.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/SAKSHI/Downloads/Moody2112022/Moody/app/src/main/res/layout/activity_title_description.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/SAKSHI/Downloads/Moody2112022/Moody/app/src/main/res/layout/content_about.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/SAKSHI/Downloads/Moody2112022/Moody/app/src/main/res/layout/layout_to_display.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/SAKSHI/Downloads/Moody2112022/Moody/app/src/main/res/menu/menu.xml" value="0.184375" />
+        <entry key="..\:/Users/SAKSHI/Downloads/Moody2122022/Moody/app/src/main/res/layout/activity_description.xml" value="0.1721014492753623" />
+        <entry key="..\:/Users/SAKSHI/Downloads/RealOne/Moody/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/aadhi/AndroidStudioProjects/Moody/app/src/main/res/drawable/rounded_rectangle.xml" value="0.238" />
+        <entry key="..\:/Users/aadhi/AndroidStudioProjects/Moody/app/src/main/res/font/button_font.xml" value="0.284375" />
+        <entry key="..\:/Users/aadhi/AndroidStudioProjects/Moody/app/src/main/res/font/heading_text_font.xml" value="0.284375" />
+        <entry key="..\:/Users/aadhi/AndroidStudioProjects/Moody/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.16331994645247658" />
+        <entry key="..\:/Users/aadhi/AndroidStudioProjects/Moody/app/src/main/res/layout-w936dp/activity_login.xml" value="0.1721311475409836" />
+        <entry key="..\:/Users/aadhi/AndroidStudioProjects/Moody/app/src/main/res/layout/activity_about_us.xml" value="0.2" />
+        <entry key="..\:/Users/aadhi/AndroidStudioProjects/Moody/app/src/main/res/layout/activity_angry.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/aadhi/AndroidStudioProjects/Moody/app/src/main/res/layout/activity_description.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/aadhi/AndroidStudioProjects/Moody/app/src/main/res/layout/activity_happy.xml" value="0.264" />
+        <entry key="..\:/Users/aadhi/AndroidStudioProjects/Moody/app/src/main/res/layout/activity_introduction_page.xml" value="0.2" />
+        <entry key="..\:/Users/aadhi/AndroidStudioProjects/Moody/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/aadhi/AndroidStudioProjects/Moody/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/aadhi/AndroidStudioProjects/Moody/app/src/main/res/layout/activity_other.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/aadhi/AndroidStudioProjects/Moody/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Users/aadhi/AndroidStudioProjects/Moody/app/src/main/res/layout/activity_sad.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/aadhi/AndroidStudioProjects/Moody/app/src/main/res/layout/activity_select_mood.xml" value="0.264" />
+        <entry key="..\:/Users/aadhi/AndroidStudioProjects/Moody/app/src/main/res/layout/activity_title_description.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/aadhi/AndroidStudioProjects/Moody/app/src/main/res/layout/layout_to_display.xml" value="0.264" />
+        <entry key="..\:/Users/aadhi/AndroidStudioProjects/Moody/app/src/main/res/layout/title_description_display.xml" value="0.264" />
+        <entry key="..\:/Users/aadhi/AndroidStudioProjects/Moody/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
