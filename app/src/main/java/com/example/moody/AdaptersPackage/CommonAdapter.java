@@ -50,7 +50,7 @@ public class CommonAdapter extends RecyclerView.Adapter<CommonAdapter.viewHolder
         {
             userNameAndPass = MainActivity.loginUserId;
         }
-        /********************************************************************************************/
+        /************************************************************/
         if(SelectMoodActivity.Happy_remove.equals("Happy"))
         {
             mood_remove=SelectMoodActivity.Happy_remove;
