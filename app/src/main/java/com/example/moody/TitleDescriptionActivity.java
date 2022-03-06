@@ -26,7 +26,7 @@ public class TitleDescriptionActivity extends AppCompatActivity
         binding = ActivityTitleDescriptionBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        //to hide the action bar----
+        //to hide the action bar----.
         getSupportActionBar().hide();
 
         databasereference = FirebaseDatabase.getInstance().getReference().child("Data");
